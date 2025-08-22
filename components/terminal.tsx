@@ -8,49 +8,53 @@ export function Terminal() {
   const [displayedText, setDisplayedText] = useState("")
   const [isTyping, setIsTyping] = useState(true)
 
-  const developerInfo = `{
+const developerInfo = `{
   "developer": {
-    "name": "John Doe",
+    "name": "Md. Muzzammil Rashid",
     "role": "Full Stack Developer",
-    "location": "San Francisco, CA",
-    "experience": "5+ years",
-    "status": "available_for_hire",
+    "location": "Ranchi, Jharkhand",
+    "experience": "1+ Year",
+    "status": "actively_looking_for_full_time_role",
     "specialties": [
       "React.js",
       "Node.js",
-      "TypeScript",
-      "Next.js",
-      "Python",
-      "AWS"
+      "Spring Boot",
+      "React Native",
+      "MongoDB",
+      "GoLang"
     ],
     "contact": {
-      "email": "john.doe@example.com",
-      "linkedin": "linkedin.com/in/johndoe",
-      "github": "github.com/johndoe",
-      "portfolio": "johndoe.dev"
+      "email": "mdmuzzammilrashid@gmail.com",
+      "linkedin": "linkedin.com/in/md-muzzammil-rashid",
+      "github": "github.com/md-muzzammil-rashid",
+      "leetcode": "leetcode.com/u/md-muzzammil-rashid"
     },
     "current_focus": [
-      "AI/ML Integration",
-      "Cloud Architecture",
-      "Performance Optimization"
+      "System Design & DSA Revision",
+      "MERN & Spring Boot Projects",
+      "Interview Preparation"
     ],
     "languages": {
-      "JavaScript": "expert",
-      "TypeScript": "expert",
-      "Python": "advanced",
-      "Go": "intermediate",
-      "Rust": "learning"
+      "Java": "advanced",
+      "GoLang": "advanced",
+      "JavaScript": "advanced",
+      "TypeScript": "intermediate",
+      "Python": "intermediate",
+      "C/C++": "intermediate",
+      "SQL": "intermediate"
     },
     "tools": [
       "VS Code",
-      "Docker",
-      "Kubernetes",
       "Git",
+      "Spring Tool Suite",
+      "Postman",
+      "MongoDB Compass",
       "Figma"
     ],
-    "last_updated": "2024-01-30T10:30:00Z"
+    "last_updated": "2025-08-07T21:00:00+05:30"
   }
 }`
+
 
   useEffect(() => {
     let index = 0
@@ -151,7 +155,7 @@ export function Terminal() {
         </div>
 
         {/* Terminal Stats */}
-        <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+        {/* <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="bg-white rounded-lg p-6 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
             <div className="flex items-center justify-between">
               <div>
@@ -187,7 +191,7 @@ export function Terminal() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )

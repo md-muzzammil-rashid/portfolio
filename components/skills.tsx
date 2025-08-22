@@ -7,7 +7,7 @@ export function Skills() {
     {
       icon: Code,
       title: "Programming Languages",
-      skills: ["JavaScript", "TypeScript", "Python", "Java", "C++", "C", "GoLang", "SQL"],
+      skills: ["JavaScript", "TypeScript", "Python", "Java", "GoLang", "C++", "C", "SQL"],
       gradient: "from-purple-500 to-blue-500",
     },
     {
@@ -123,7 +123,7 @@ export function Skills() {
                   <div
                     className={`w-20 h-20 bg-gradient-to-r ${achievement.gradient} rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform`}
                   >
-                    <div className="text-3xl font-bold text-white">{achievement.value}</div>
+                    <div className="text-2xl font-bold text-white">{achievement.value}</div>
                   </div>
                   <div className="text-lg font-semibold text-gray-900 mb-2">{achievement.label}</div>
                   <div className="text-sm text-gray-600">{achievement.description}</div>

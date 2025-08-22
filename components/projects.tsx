@@ -183,7 +183,7 @@ export function Projects() {
           </p>
 
           {/* Interactive Project Filter */}
-          <div className="flex flex-wrap justify-center gap-3 mb-12">
+          {/* <div className="flex flex-wrap justify-center gap-3 mb-12">
             {["All", "Web App", "Mobile", "AI/ML", "SaaS"].map((filter) => (
               <button
                 key={filter}
@@ -192,7 +192,7 @@ export function Projects() {
                 {filter}
               </button>
             ))}
-          </div>
+          </div> */}
         </div>
 
         <div className="grid lg:grid-cols-2 gap-8">

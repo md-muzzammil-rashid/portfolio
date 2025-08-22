@@ -8,9 +8,9 @@ export function Education() {
     university: "Sarala Birla University",
     location: "Ranchi, Jharkhand",
     period: "Aug. 2021 – May 2025",
-    cgpa: "8.15/10.00",
+    cgpa: "8.33/10.00",
     highlights: [
-      "Maintained consistent academic excellence with 8.15 CGPA",
+      "Maintained consistent academic excellence with 8.33 CGPA",
       "Active member of Google Developer Student Club",
       "Led web development workshops and mentored fellow students",
       "Participated in various coding competitions and hackathons",
@@ -24,6 +24,12 @@ export function Education() {
       description: "Leveraged knowledge to improve server response time by 30%",
       skills: ["Spring Boot", "Microservices Architecture", "RESTful APIs"],
     },
+    {
+      title: "Complete Data Science & Machine Learning",
+      provider: "GeeksforGeeks",
+      description: "Built strong foundations in data preprocessing, model building, and evaluation using real-world datasets",
+      skills: ["Python", "Pandas", "NumPy", "Scikit-learn", "Data Visualization", "Machine Learning Algorithms"]
+    }
   ]
 
   const achievements = [
@@ -142,7 +148,7 @@ export function Education() {
                   </div>
                 </CardHeader>
                 <CardContent className="space-y-6">
-                  <p className="text-gray-600 text-lg leading-relaxed">{cert.description}</p>
+                  {/* <p className="text-gray-600 text-lg leading-relaxed">{cert.description}</p> */}
                   <div className="flex flex-wrap gap-3">
                     {cert.skills.map((skill, skillIndex) => (
                       <Badge

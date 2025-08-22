@@ -11,6 +11,7 @@ import { TechStack } from "@/components/tech-stack"
 import { Testimonials } from "@/components/testimonials"
 import { BlogSection } from "@/components/blog-section"
 import { Contact } from "@/components/contact"
+import Freelancing from "@/components/freelance"
 
 export default function Home() {
   return (
@@ -19,14 +20,15 @@ export default function Home() {
       <Hero />
       <Terminal />
       <About />
-      <Skills />
       <Experience />
-      <Education />
+      <Freelancing/>
       <Projects />
+      <Skills />
+      <Education />
       <InteractiveStats />
       <TechStack />
       <Testimonials />
-      <BlogSection />
+      {/* <BlogSection /> */}
       <Contact />
     </main>
   )

@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge"
 export function Experience() {
   const experiences = [
     {
-      title: "Software Developer Engineer Intern",
+      title: "Software Developer Engineer",
       company: "Cnear (YoursThatSenior Pvt. Ltd.)",
       location: "Remote, Delhi",
       period: "November 2024 – Present",
@@ -23,7 +23,7 @@ export function Experience() {
     },
     {
       title: "Software Engineer (Freelancer)",
-      company: "Hello Growing",
+      company: "Hello Growing Pvt. Ltd.",
       location: "Ranchi, Jharkhand",
       period: "February 2025 – May 2025",
       achievements: [
@@ -36,6 +36,21 @@ export function Experience() {
       technologies: ["MERN Stack", "Next.js", "Razorpay", "SEO Optimization", "Subdomain Management"],
       color: "from-blue-500 to-cyan-500",
       status: "completed",
+    },
+    {
+      title: "Software Developer Engineer Intern",
+      company: "Feedants Pvt. Ltd.",
+      location: "Remote",
+      period: "June 2024 – September 2024",
+      achievements: [
+        "Contributed to a skill-sharing social media app enabling 500+ users to showcase talents via short-form videos, enhancing user engagement through real-time features",
+        "Designed and refined 10+ React Native screens, improving video feed load times and reducing crashes by 20%",
+        "Created scalable backend APIs using Node.js and Express.js, and streamlined MongoDB schema for efficiency",
+        "Integrated AWS S3 for secure video storage, reducing server load and resulting in 25% faster API responses"
+      ],
+      technologies: ["React Native", "Node.js", "Express.js", "MongoDB", "AWS S3"],
+      color: "from-purple-500 to-indigo-500",
+      status: "completed"
     },
     {
       title: "Web Development Lead Executive",

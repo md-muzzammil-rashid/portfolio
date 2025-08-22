@@ -27,7 +27,7 @@ export function About() {
             <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
               <p>
                 I'm a passionate Software Developer Engineer with a strong foundation in full-stack development.
-                Currently pursuing my Bachelor's in Computer Science at Sarala Birla University with an impressive 8.15
+                Completed my Bachelor's in Computer Science at Sarala Birla University with an impressive 8.33
                 CGPA.
               </p>
               <p>

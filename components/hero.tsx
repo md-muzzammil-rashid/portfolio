@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react"
 import { Github, Linkedin, Mail, Phone, ExternalLink, Download, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import avatar from '@/avatar.png'
+import avatar from '@/avatar3.png'
 import Image from "next/image"
 
 export function Hero() {

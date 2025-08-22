@@ -126,7 +126,7 @@ export function TechStack() {
         </div>
 
         {/* Category Filter */}
-        <div className="flex flex-wrap justify-center gap-3 mb-12">
+        {/* <div className="flex flex-wrap justify-center gap-3 mb-12">
           {categories.map((category) => (
             <button
               key={category.id}
@@ -140,7 +140,7 @@ export function TechStack() {
               {category.label} ({category.count})
             </button>
           ))}
-        </div>
+        </div> */}
 
         {/* Technology Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

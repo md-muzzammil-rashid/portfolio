@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import { Menu, X, Sparkles } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
@@ -13,10 +14,11 @@ export function Navigation() {
     { id: "hero", label: "Home" },
     { id: "about", label: "About" },
     { id: "experience", label: "Experience" },
+    { id: "freelancing", label: "Freelancing" },
     { id: "projects", label: "Projects" },
     { id: "skills", label: "Skills" },
     { id: "education", label: "Education" },
-    { id: "blog", label: "Blog" },
+    // { id: "blog", label: "Blog" },
     { id: "contact", label: "Contact" },
   ]
 
@@ -56,10 +58,12 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-r from-purple-500 to-blue-500 flex items-center justify-center">
-              <Sparkles className="h-6 w-6 text-white" />
+            <div className="w-20 h-20 rounded-xl bg-gradient-to-r from-purple-5-00 to-blue-5-00 flex items-center justify-center">
+              {/* <Sparkles className="h-6 w-6 text-white" />
+               */}
+               <Image src='/logo.png' width={80} height={80} className="" alt="MR" />
             </div>
-            <span className="font-bold text-2xl gradient-text">MR</span>
+            {/* <span className="font-bold text-2xl gradient-text">MR</span> */}
           </div>
 
           {/* Desktop Navigation */}
