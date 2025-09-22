@@ -13,8 +13,9 @@ export function Projects() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
 
   function isMobile() {
-    console.log(window.innerWidth)
+    if (typeof window !== "undefined") {
   return window.innerWidth <= 768; // you can adjust breakpoint
+}
 }
   const projects = [
     {
