@@ -298,9 +298,10 @@ export function Projects() {
                     size="sm"
                     variant="outline"
                     className="border-2 border-gray-200 text-gray-700 hover:border-purple-300 hover:text-purple-600 hover:bg-purple-50 rounded-xl font-semibold flex-1 bg-transparent"
+                    onClick={()=>window.open(project.github, "_blank")}
                   >
                     <Github className="mr-2 h-4 w-4" />
-                    {isMobile() && "Code"}
+                     <span className="hidden md:block">Code</span>
                   </Button>}
                   {project.screenshots?.length > 0 && <Button
                     size="sm"
@@ -309,11 +310,14 @@ export function Projects() {
                     className="border-2 border-blue-200 text-blue-700 hover:border-blue-400 hover:text-blue-800 hover:bg-blue-50 rounded-xl font-semibold flex-1 bg-transparent"
                   >
                     <Eye className="mr-2 h-4 w-4" />
-                    {isMobile()&& "Preview"}
+                                         <span className="hidden md:block">Preview</span>
+
                   </Button>}
-                  {project.live && <Button size="sm" className="modern-btn flex-1">
+                  {project.live && <Button size="sm" className="modern-btn flex-1" 
+                    onClick={()=>window.open(project.live, "_blank")}
+>
                     <ExternalLink className="mr-2 h-4 w-4" />
-                    {isMobile() && "Live Demo"}
+                     <span className="hidden md:block">Live Demo</span>
                   </Button>}
                 </div>
               </CardContent>
