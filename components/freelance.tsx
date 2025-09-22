@@ -164,36 +164,36 @@ export default function Freelancing() {
       iconGradient: "from-blue-500 to-purple-600",
       icon: "CMP",
     },
-    khanAcademyRanchi: {
-id: "khan-academy-ranchi",
-title: "Khan Academy Ranchi",
-subtitle: "Coaching Institute Website",
-client: "Khan Academy Ranchi",
+    CECFeel:{
+id: "cec-feel-fmcg",
+title: "CEC Feel — FMCG Website",
+subtitle: "Next.js Product & Recipes Platform",
+client: "CEC Feel",
 status: "Completed",
-badges: ["Completed", "SEO Top-10", "Lead Gen"],
+badges: ["Completed", "Catalog", "Recipes"],
 description:
-"Built a fast, SEO-focused coaching website with dedicated pages for institute overview, mentors, gallery, courses, admissions, FAQs, and contact. Implemented lead capture forms with validation and spam protection, and optimized on-page SEO (meta tags, OG/Twitter, sitemap, robots, schema.org).",
-liveUrl: "https://www.khanacademyranchi.com", // Add your actual live URL
-githubUrl: "https://github.com/md-muzzammil-rashid/khan-academy-ranchi", // Add your GitHub URL or mark as private
+"A modern FMCG brand site featuring a structured product catalog, recipe hub, and brand story pages. Emphasis on product discovery, rich media, and SEO (Product/Recipe schema) with lead/contact capture for distributors and retailers.",
+liveUrl: "https://feelcec.com", // Use your live domain or subdomain
+githubUrl: "https://github.com/md-muzzammil-rashid/cec-feel", // Add your GitHub URL or mark as private
 metrics: [
-{ value: "1st Page", label: "Google for target queries" },
-{ value: "45%+", label: "Form submit rate on paid traffic" },
-{ value: ">90", label: "Lighthouse SEO Score" },
+{ value: "2x", label: "Time on recipe pages" },
+{ value: ">90", label: "SEO & Accessibility scores" },
+{ value: "<100ms", label: "Image LCP with Next/Image" },
 ],
 features: [
-"Hero with clear CTA and inquiry form",
-"Mentor/Faculty profiles with experience & subjects",
-"Courses page with syllabus, batches, and fee inquiry",
-"Admissions + downloadable brochure",
-"Image gallery and student testimonials",
-"Blog/updates for results & announcements",
-"On-page SEO + schema for LocalBusiness, Course, and FAQ",
-"Analytics + events for form submissions",
+"Product catalog with categories, filters, and detail pages",
+"Recipe hub with ingredients, steps, and product tags",
+"Nutrition facts and allergen info blocks",
+"Distributor/Retailer inquiry forms (spam‑safe)",
+"Brand story, quality standards, and certifications",
+"Store/where‑to‑buy section with external links",
+"Structured data for Product and Recipe schema",
+"Sitemap, robots, and dynamic OG for sharing",
 ],
-technologies: ["HTML", "CSS", "JavaScript", "Schema.org", "On‑page SEO"],
-gradient: "from-amber-50 to-rose-50",
-iconGradient: "from-red-500 to-black",
-icon: "KA"
+technologies: ["Next.js", "React", "Tailwind CSS", "Next/Image", "SEO"],
+gradient: "from-emerald-50 to-teal-50",
+iconGradient: "from-emerald-500 to-teal-600",
+icon: "CEC",
 },
 OMAMedia:{
 id: "oma-media-website",
@@ -226,37 +226,39 @@ gradient: "from-indigo-50 to-cyan-50",
 iconGradient: "from-indigo-500 to-cyan-600",
 icon: "OMA",
 },
-CECFeel:{
-id: "cec-feel-fmcg",
-title: "CEC Feel — FMCG Website",
-subtitle: "Next.js Product & Recipes Platform",
-client: "CEC Feel",
+    khanAcademyRanchi: {
+id: "khan-academy-ranchi",
+title: "Khan Academy Ranchi",
+subtitle: "Coaching Institute Website",
+client: "Khan Academy Ranchi",
 status: "Completed",
-badges: ["Completed", "Catalog", "Recipes"],
+badges: ["Completed", "SEO Top-10", "Lead Gen"],
 description:
-"A modern FMCG brand site featuring a structured product catalog, recipe hub, and brand story pages. Emphasis on product discovery, rich media, and SEO (Product/Recipe schema) with lead/contact capture for distributors and retailers.",
-liveUrl: "https://feel-final.vercel.app", // Use your live domain or subdomain
-githubUrl: "https://github.com/md-muzzammil-rashid/cec-feel", // Add your GitHub URL or mark as private
+"Built a fast, SEO-focused coaching website with dedicated pages for institute overview, mentors, gallery, courses, admissions, FAQs, and contact. Implemented lead capture forms with validation and spam protection, and optimized on-page SEO (meta tags, OG/Twitter, sitemap, robots, schema.org).",
+liveUrl: "https://www.khanacademyranchi.com", // Add your actual live URL
+githubUrl: "https://github.com/md-muzzammil-rashid/khan-academy-ranchi", // Add your GitHub URL or mark as private
 metrics: [
-{ value: "2x", label: "Time on recipe pages" },
-{ value: ">90", label: "SEO & Accessibility scores" },
-{ value: "<100ms", label: "Image LCP with Next/Image" },
+{ value: "1st Page", label: "Google for target queries" },
+{ value: "45%+", label: "Form submit rate on paid traffic" },
+{ value: ">90", label: "Lighthouse SEO Score" },
 ],
 features: [
-"Product catalog with categories, filters, and detail pages",
-"Recipe hub with ingredients, steps, and product tags",
-"Nutrition facts and allergen info blocks",
-"Distributor/Retailer inquiry forms (spam‑safe)",
-"Brand story, quality standards, and certifications",
-"Store/where‑to‑buy section with external links",
-"Structured data for Product and Recipe schema",
-"Sitemap, robots, and dynamic OG for sharing",
+"Hero with clear CTA and inquiry form",
+"Mentor/Faculty profiles with experience & subjects",
+"Courses page with syllabus, batches, and fee inquiry",
+"Admissions + downloadable brochure",
+"Image gallery and student testimonials",
+"Blog/updates for results & announcements",
+"On-page SEO + schema for LocalBusiness, Course, and FAQ",
+"Analytics + events for form submissions",
 ],
-technologies: ["Next.js", "React", "Tailwind CSS", "Next/Image", "SEO"],
-gradient: "from-emerald-50 to-teal-50",
-iconGradient: "from-emerald-500 to-teal-600",
-icon: "CEC",
+technologies: ["HTML", "CSS", "JavaScript", "Schema.org", "On‑page SEO"],
+gradient: "from-amber-50 to-rose-50",
+iconGradient: "from-red-500 to-black",
+icon: "KA"
 },
+
+
 
 
 
@@ -410,19 +412,21 @@ icon: "CEC",
           {services.map((service, index) => (
             <Card key={index} className="bg-white shadow-lg hover:shadow-xl transition-all duration-300 border-0 group">
               <CardHeader className="pb-4">
-                <div className="flex items-start justify-between mb-4">
+                <div className="flex items-start justify-between mb-4 gap-6">
                   <div
-                    className={`w-16 h-16 rounded-xl flex items-center justify-center ${getIconBg(service.color)} group-hover:scale-110 transition-transform duration-300`}
+                    className={`w-16 h-16 flex-shrink-0 rounded-xl flex items-center justify-center ${getIconBg(service.color)} group-hover:scale-110 transition-transform duration-300`}
                   >
                     {service.icon}
                   </div>
-                  <div className="text-right">
+                  {/* <div className="text-right">
                     <div className="text-2xl font-bold text-gray-900">{service.startingPrice}</div>
                     <div className="text-sm text-gray-600">Starting from</div>
+                  </div> */}
+                  <div>
+                    <CardTitle className="text-xl text-gray-900 ">{service.title}</CardTitle>
+                    <p className="text-gray-600 text-sm leading-relaxed">{service.description}</p>
                   </div>
                 </div>
-                <CardTitle className="text-2xl text-gray-900 mb-2">{service.title}</CardTitle>
-                <p className="text-gray-600 leading-relaxed">{service.description}</p>
               </CardHeader>
 
               <CardContent className="space-y-6">
@@ -456,7 +460,7 @@ icon: "CEC",
                     onClick={scrollToContact}
                     className={`bg-gradient-to-r ${getColorClasses(service.color)} hover:shadow-lg transition-all duration-300`}
                   >
-                    Get Quote
+                    Contact
                     <ArrowRight className="h-4 w-4 ml-2" />
                   </Button>
                 </div>

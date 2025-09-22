@@ -17,7 +17,7 @@ export function CodeShowcase() {
       code: `const developer = {
   name: 'Md Muzzammil Rashid',
   role: 'Software Developer Engineer',
-  location: 'Ranchi, Jharkhand',
+  location: 'Bangalore, Karnataka',
   experience: '2+ years',
   skills: [
     'React', 'Next.js', 'Node.js', 

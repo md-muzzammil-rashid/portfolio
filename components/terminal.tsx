@@ -12,7 +12,7 @@ const developerInfo = `{
   "developer": {
     "name": "Md. Muzzammil Rashid",
     "role": "Full Stack Developer",
-    "location": "Ranchi, Jharkhand",
+    "location": "Bangalore, Karnataka",
     "experience": "1+ Year",
     "status": "actively_looking_for_full_time_role",
     "specialties": [

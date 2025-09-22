@@ -8,44 +8,54 @@ import { Button } from "@/components/ui/button"
 export function Testimonials() {
   const [currentTestimonial, setCurrentTestimonial] = useState(0)
 
-  const testimonials = [
-    {
-      name: "Sarah Johnson",
-      role: "Product Manager",
-      company: "TechCorp Inc.",
-      image: "/placeholder.svg?height=80&width=80&text=SJ",
-      rating: 5,
-      text: "Muzzammil delivered exceptional work on our construction management platform. His attention to detail and technical expertise helped us streamline operations for over 10 sites. Highly recommended!",
-      project: "Construction Workflow Platform",
-    },
-    {
-      name: "David Chen",
-      role: "CTO",
-      company: "EduTech Solutions",
-      image: "/placeholder.svg?height=80&width=80&text=DC",
-      rating: 5,
-      text: "The AI-powered course generator that Muzzammil built exceeded our expectations. The platform now serves 200+ users and has significantly improved our content creation process.",
-      project: "AI Course Generator",
-    },
-    {
-      name: "Emily Rodriguez",
-      role: "Startup Founder",
-      company: "WanderBuddy",
-      image: "/placeholder.svg?height=80&width=80&text=ER",
-      rating: 5,
-      text: "Working with Muzzammil was a game-changer for our travel app. His full-stack expertise helped us launch successfully and now we have over 500 active users. Amazing developer!",
-      project: "Travel Planning App",
-    },
-    {
-      name: "Michael Thompson",
-      role: "Restaurant Owner",
-      company: "Bella Vista Restaurant",
-      image: "/placeholder.svg?height=80&width=80&text=MT",
-      rating: 5,
-      text: "The POS system Muzzammil developed transformed our restaurant operations. Order processing time reduced by 35% and our staff loves the intuitive interface.",
-      project: "Restaurant POS System",
-    },
-  ]
+const testimonials = [
+  {
+    name: "Nayanjeet Roy",
+    role: "Co-Founder",
+    company: "HelloGrowing Pvt. Ltd.",
+    image: "/placeholder.svg?height=80&width=80&text=SJ",
+    rating: 5,
+    text: "Muzzammil did an amazing job building our course platform. Everything works smoothly and it’s really easy to manage courses now. He’s reliable and knows his stuff.",
+    project: "HelloGrowing",
+  },
+  {
+    name: "Rahul K.",
+    role: "Student",
+    company: "EduTech Solutions",
+    image: "/placeholder.svg?height=80&width=80&text=DC",
+    rating: 5,
+    text: "The platform Muzzammil built saved me so much time. The AI notes and videos are super helpful and easy to use. He really gets what students need.",
+    project: "AI Course Generator",
+  },
+  {
+    name: "Zeeshan Mirza",
+    role: "Director",
+    company: "Khan Academy Ranchi",
+    image: "/placeholder.svg?height=80&width=80&text=ER",
+    rating: 5,
+    text: "He made our website and it’s already helping us get more students. The site is clean, fast, and easy to use. Very happy with his work.",
+    project: "Khan Academy Website",
+  },
+  {
+    name: "Vishwanath Ram V",
+    role: "National Head",
+    company: "CEC Flavours & Fragrances Pvt Ltd",
+    image: "/placeholder.svg?height=80&width=80&text=MT",
+    rating: 5,
+    text: "Muzzammil created a website showing all our products with recipes. It’s simple, easy to use, and already bringing us more leads. Exactly what we needed.",
+    project: "Feel CEC",
+  },
+  {
+    name: "Yash Raj",
+    role: "Co-Founder",
+    company: "OMA Media Pvt Ltd",
+    image: "/placeholder.svg?height=80&width=80&text=MT",
+    rating: 5,
+    text: "He built our portfolio website and it looks great. Easy to use and has already helped us get new clients. Really happy with how it turned out.",
+    project: "OMA Media",
+  },
+]
+
 
   useEffect(() => {
     const timer = setInterval(() => {

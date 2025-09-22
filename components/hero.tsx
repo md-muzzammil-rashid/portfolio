@@ -10,6 +10,13 @@ export function Hero() {
   const [text, setText] = useState("")
   const fullText = "Software Developer Engineer"
 
+    const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/Md_Muzzammil_Rashid__916200546409 (1).pdf"; // file in public/docs
+    link.download = "Md_Muzzammil_Rashid__916200546409.pdf"; // custom file name
+    link.click();
+  };
+
   useEffect(() => {
     let i = 0
     const timer = setInterval(() => {
@@ -82,7 +89,9 @@ export function Hero() {
                 size="lg"
                 variant="outline"
                 className="border-2 border-gray-200 text-gray-700 hover:border-purple-300 hover:text-purple-600 hover:bg-purple-50 rounded-xl font-semibold bg-transparent"
-                onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}
+                // onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}
+                onClick={handleDownload}
+                
               >
                 <Download className="mr-2 h-5 w-5" />
                 Download CV

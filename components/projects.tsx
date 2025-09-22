@@ -6,11 +6,16 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent } from "@/components/ui/dialog"
+import Image from "next/image"
 
 export function Projects() {
   const [selectedProject, setSelectedProject] = useState<number | null>(null)
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
 
+  function isMobile() {
+    console.log(window.innerWidth)
+  return window.innerWidth <= 768; // you can adjust breakpoint
+}
   const projects = [
     {
       title: "Construction Workflow Automation Platform",
@@ -27,10 +32,21 @@ export function Projects() {
       date: "May 2025",
       gradient: "from-purple-500 to-blue-500",
       screenshots: [
-        "/placeholder.svg?height=600&width=800&text=Construction+Dashboard",
-        "/placeholder.svg?height=600&width=800&text=Task+Management+View",
-        "/placeholder.svg?height=600&width=800&text=Real-time+Communication",
-        "/placeholder.svg?height=600&width=800&text=Mobile+App+Interface",
+        "/projects/C0.png",
+        "/projects/C1.png",
+        "/projects/C2.png",
+        "/projects/C3.png",
+        "/projects/C4.png",
+        "/projects/C5.png",
+        "/projects/C6.png",
+        "/projects/C7.png",
+        "/projects/C8.png",
+        "/projects/C9.png",
+        "/projects/C10.png",
+        "/projects/C11.png",
+        "/projects/C12.png",
+        "/projects/C13.png",
+        "/projects/C14.png",
       ],
     },
     {
@@ -48,11 +64,18 @@ export function Projects() {
       date: "May 2025",
       gradient: "from-blue-500 to-cyan-500",
       screenshots: [
-        "/placeholder.svg?height=600&width=800&text=AI+Course+Generator",
-        "/placeholder.svg?height=600&width=800&text=PDF+Notes+Preview",
-        "/placeholder.svg?height=600&width=800&text=Video+Course+Interface",
-        "/placeholder.svg?height=600&width=800&text=User+Dashboard",
+        "/projects/CB1.jpg",
+        "/projects/CB2.jpg",
+        "/projects/CB3.jpg",
+        "/projects/CB4.jpg",
+        "/projects/CB5.jpg",
+        "/projects/CB6.jpg",
+        "/projects/CB7.jpg",
+        "/projects/CB8.jpg",
       ],
+      github: "https://github.com/md-muzzammil-rashid/career-builder-backend",
+      
+      
     },
     {
       title: "WanderBuddy: Traveling Application",
@@ -69,11 +92,21 @@ export function Projects() {
       date: "Feb 2025",
       gradient: "from-cyan-500 to-teal-500",
       screenshots: [
-        "/placeholder.svg?height=600&width=800&text=Trip+Planning+Dashboard",
-        "/placeholder.svg?height=600&width=800&text=Real-time+Chat+Interface",
-        "/placeholder.svg?height=600&width=800&text=Destination+Explorer",
-        "/placeholder.svg?height=600&width=800&text=Budget+Tracker",
+        "/projects/WB1.png",
+        "/projects/WB2.png",
+        "/projects/WB3.png",
+        "/projects/WB4.png",
+        "/projects/WB5.png",
+        "/projects/WB6.png",
+        "/projects/WB7.png",
+        "/projects/WB8.png",
+        "/projects/WB9.png",
+        "/projects/WB10.png",
+        "/projects/WB11.png",
+        "/projects/WB12.png",
+        "/projects/WB13.png",
       ],
+      github: "https://github.com/md-muzzammil-rashid/wanderbuddy-backend"
     },
     {
       title: "Portfolio & Resume Generator",
@@ -90,11 +123,16 @@ export function Projects() {
       date: "Nov 2024",
       gradient: "from-teal-500 to-green-500",
       screenshots: [
-        "/placeholder.svg?height=600&width=800&text=Portfolio+Templates",
-        "/placeholder.svg?height=600&width=800&text=Resume+Upload+Interface",
-        "/placeholder.svg?height=600&width=800&text=AI+Resume+Generator",
-        "/placeholder.svg?height=600&width=800&text=Generated+Portfolio",
+        "/projects/ResumeBuilder1.png",
+        "/projects/ResumeBuilder2.png",
+        "/projects/ResumeBuilder3.png",
+        "/projects/ResumeBuilder4.png",
+        "/projects/ResumeBuilder5.png",
+        "/projects/ResumeBuilder6.png",
+        "/projects/ResumeBuilder7.jpg",
+        "/projects/ResumeBuilder8.jpg",
       ],
+      github:"https://github.com/md-muzzammil-rashid/career-builder-frontend"
     },
     {
       title: "Restaurant Management POS Software",
@@ -111,11 +149,19 @@ export function Projects() {
       date: "Jul 2024",
       gradient: "from-green-500 to-emerald-500",
       screenshots: [
-        "/placeholder.svg?height=600&width=800&text=POS+Dashboard",
-        "/placeholder.svg?height=600&width=800&text=Kitchen+Display+System",
-        "/placeholder.svg?height=600&width=800&text=Order+Management",
-        "/placeholder.svg?height=600&width=800&text=Analytics+Dashboard",
+        "/projects/RMS1.png",
+        "/projects/RMS2.png",
+        "/projects/RMS3.png",
+        "/projects/RMS4.png",
+        "/projects/RMS5.png",
+        "/projects/RMS6.png",
+        "/projects/RMS7.png",
+        "/projects/RMS8.png",
+        "/projects/RMS9.png",
+        "/projects/RMS10.png",
       ],
+      github: "https://github.com/md-muzzammil-rashid/RMS",
+      live: "https://dynebytes.mdmuzzammilrashid.com/"
     },
     {
       title: "Personal Expense Tracker",
@@ -133,11 +179,15 @@ export function Projects() {
       date: "Jan 2025",
       gradient: "from-emerald-500 to-teal-500",
       screenshots: [
-        "/placeholder.svg?height=600&width=800&text=Expense+Dashboard",
-        "/placeholder.svg?height=600&width=800&text=Budget+Analytics",
-        "/placeholder.svg?height=600&width=800&text=Category+Management",
-        "/placeholder.svg?height=600&width=800&text=Financial+Reports",
+        "/projects/ET1.png",
+        "/projects/ET2.png",
+        "/projects/ET3.png",
+        "/projects/ET4.png",
+        "/projects/ET5.png",
+        "/projects/ET6.png",
+        "/projects/ET7.png",
       ],
+      github:"https://github.com/md-muzzammil-rashid/exprense-tracker-backend"
     },
   ]
 
@@ -243,27 +293,27 @@ export function Projects() {
                 </div>
 
                 <div className="flex gap-3">
-                  <Button
+                  {project.github && <Button
                     size="sm"
                     variant="outline"
                     className="border-2 border-gray-200 text-gray-700 hover:border-purple-300 hover:text-purple-600 hover:bg-purple-50 rounded-xl font-semibold flex-1 bg-transparent"
                   >
                     <Github className="mr-2 h-4 w-4" />
-                    Code
-                  </Button>
-                  <Button
+                    {isMobile() && "Code"}
+                  </Button>}
+                  {project.screenshots?.length > 0 && <Button
                     size="sm"
                     variant="outline"
                     onClick={() => openPreview(index)}
                     className="border-2 border-blue-200 text-blue-700 hover:border-blue-400 hover:text-blue-800 hover:bg-blue-50 rounded-xl font-semibold flex-1 bg-transparent"
                   >
                     <Eye className="mr-2 h-4 w-4" />
-                    Preview
-                  </Button>
-                  <Button size="sm" className="modern-btn flex-1">
+                    {isMobile()&& "Preview"}
+                  </Button>}
+                  {project.live && <Button size="sm" className="modern-btn flex-1">
                     <ExternalLink className="mr-2 h-4 w-4" />
-                    Live Demo
-                  </Button>
+                    {isMobile() && "Live Demo"}
+                  </Button>}
                 </div>
               </CardContent>
             </Card>
@@ -271,95 +321,92 @@ export function Projects() {
         </div>
 
         {/* Preview Dialog */}
-        <Dialog open={selectedProject !== null} onOpenChange={closePreview}>
-          <DialogContent className="max-w-7xl w-[95vw] h-[95vh] p-0 bg-black/95 border-0">
-            {selectedProject !== null && (
-              <div className="relative w-full h-full flex flex-col">
-                {/* Header - Fixed height */}
-                <div className="flex-shrink-0 flex items-center justify-between p-4 md:p-6 bg-black/50 backdrop-blur-sm">
-                  <div>
-                    <h3 className="text-xl md:text-2xl font-bold text-white mb-1 md:mb-2">
-                      {projects[selectedProject].title}
-                    </h3>
-                    <p className="text-gray-300 text-sm">
-                      {currentImageIndex + 1} of {projects[selectedProject].screenshots.length}
-                    </p>
-                  </div>
-                  <Button
-                    variant="ghost"
-                    size="icon"
-                    onClick={closePreview}
-                    className="text-white hover:bg-white/10 rounded-full"
-                  >
-                    <X className="h-6 w-6" />
-                  </Button>
-                </div>
 
-                {/* Main Image Container - Takes remaining space minus thumbnail area */}
-                <div className="flex-1 relative flex items-center justify-center p-4 min-h-0">
-                  <div className="relative w-full h-full flex items-center justify-center">
-                    <img
-                      src={projects[selectedProject].screenshots[currentImageIndex] || "/placeholder.svg"}
-                      alt={`${projects[selectedProject].title} screenshot ${currentImageIndex + 1}`}
-                      className="max-w-full max-h-full w-auto h-auto object-contain rounded-lg md:rounded-2xl shadow-2xl"
-                      style={{
-                        maxHeight: "calc(100% - 2rem)", // Account for padding
-                        maxWidth: "calc(100% - 2rem)", // Account for padding
-                      }}
-                    />
+              <Dialog open={selectedProject != null} onOpenChange={closePreview}>
+<DialogContent
+  className="w-[90vw] h-[90vh] max-w-none p-0 bg-black/80 backdrop-blur-md border-0 flex flex-col"
+  style={{
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%, -50%)"
+  }}
+>
+  {/* Overlay */}
+  <div className="absolute inset-0 bg-gradient-to-br from-white/10 via-transparent to-black/20 backdrop-blur-sm" />
 
-                    {/* Navigation Arrows */}
-                    {projects[selectedProject].screenshots.length > 1 && (
-                      <>
-                        <Button
-                          variant="ghost"
-                          size="icon"
-                          onClick={prevImage}
-                          className="absolute left-2 md:left-4 top-1/2 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white rounded-full backdrop-blur-sm z-10"
-                        >
-                          <ChevronLeft className="h-5 w-5 md:h-6 md:w-6" />
-                        </Button>
-                        <Button
-                          variant="ghost"
-                          size="icon"
-                          onClick={nextImage}
-                          className="absolute right-2 md:right-4 top-1/2 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white rounded-full backdrop-blur-sm z-10"
-                        >
-                          <ChevronRight className="h-5 w-5 md:h-6 md:w-6" />
-                        </Button>
-                      </>
-                    )}
-                  </div>
-                </div>
+  {/* Close button */}
+  <Button
+    variant="ghost"
+    size="icon"
+    className="absolute top-4 right-4 z-50 text-white hover:bg-white/20 rounded-full"
+    onClick={closePreview}
+  >
+    <X className="h-6 w-6" />
+  </Button>
 
-                {/* Thumbnail Navigation - Fixed height at bottom */}
-                {projects[selectedProject].screenshots.length > 1 && (
-                  <div className="flex-shrink-0 p-3 md:p-6 bg-black/50 backdrop-blur-sm">
-                    <div className="flex justify-center gap-2 md:gap-3 overflow-x-auto pb-2">
-                      {projects[selectedProject].screenshots.map((screenshot, index) => (
-                        <button
-                          key={index}
-                          onClick={() => goToImage(index)}
-                          className={`flex-shrink-0 w-16 h-12 md:w-20 md:h-14 rounded-md md:rounded-lg overflow-hidden border-2 transition-all ${
-                            index === currentImageIndex
-                              ? "border-blue-400 shadow-lg shadow-blue-400/50"
-                              : "border-gray-600 hover:border-gray-400"
-                          }`}
-                        >
-                          <img
-                            src={screenshot || "/placeholder.svg"}
-                            alt={`Thumbnail ${index + 1}`}
-                            className="w-full h-full object-cover"
-                          />
-                        </button>
-                      ))}
-                    </div>
-                  </div>
-                )}
-              </div>
-            )}
-          </DialogContent>
-        </Dialog>
+  {/* Navigation arrows */}
+  <Button
+    variant="ghost"
+    size="icon"
+    className="absolute left-4 top-1/2 -translate-y-1/2 z-50 text-white hover:bg-white/20 rounded-full"
+    onClick={prevImage}
+  >
+    <ChevronLeft className="h-8 w-8" />
+  </Button>
+
+  <Button
+    variant="ghost"
+    size="icon"
+    className="absolute right-4 top-1/2 -translate-y-1/2 z-50 text-white hover:bg-white/20 rounded-full"
+    onClick={nextImage}
+  >
+    <ChevronRight className="h-8 w-8" />
+  </Button>
+
+  {/* Image area */}
+<div className="flex-1 flex items-center justify-center p-8 pb-[7rem] overflow-hidden relative">
+  {selectedProject != null && (
+    <Image
+      src={projects[selectedProject].screenshots[currentImageIndex] || "/placeholder.svg"}
+      alt={projects[selectedProject].title || "/placeholder.svg"}
+      fill
+      className="object-contain"
+      sizes="(max-width: 90vw) 100vw, 90vw"
+    />
+  )}
+</div>
+
+  {/* Thumbnails */}
+  <div className="h-28 bg-black/40 backdrop-blur-md p-4 flex-shrink-0">
+    <div className="flex justify-center gap-2 overflow-x-auto max-w-full">
+      {selectedProject != null && projects[selectedProject].screenshots.map((image, index) => (
+        <div
+          key={image+index}
+          className={`flex-shrink-0 w-16 h-16 cursor-pointer rounded-md overflow-hidden border-2 transition-all duration-200 ${
+            currentImageIndex === index
+              ? "border-white shadow-lg scale-110"
+              : "border-transparent hover:border-white/50"
+          }`}
+          onClick={() => goToImage(index)}
+        >
+          <Image
+            src={image || "/placeholder.svg"}
+            alt={image}
+            width={64}
+            height={64}
+            className="w-full h-full object-cover"
+          />
+        </div>
+      ))}
+    </div>
+  </div>
+</DialogContent>
+
+      </Dialog>
+
+
+
+
       </div>
     </section>
   )
