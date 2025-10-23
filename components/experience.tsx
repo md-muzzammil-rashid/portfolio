@@ -8,7 +8,7 @@ export function Experience() {
       title: "Software Developer Engineer",
       company: "Cnear (YoursThatSenior Pvt. Ltd.)",
       location: "Remote, Delhi",
-      period: "November 2024 – Present",
+      period: "November 2024 – June 2025",
       achievements: [
         "Spearheaded development of a Placement Management Portal from scratch, now used by 8 colleges, streamlining campus placement workflows for 10K+ students",
         "Engineered and optimized scalable full-stack applications using Next.js, MERN stack, and React Native, improving load times by 40% and increasing user retention by 25%",
@@ -19,7 +19,7 @@ export function Experience() {
       ],
       technologies: ["Next.js", "React Native", "MERN Stack", "RabbitMQ", "Redis", "AI Integration"],
       color: "from-purple-500 to-blue-500",
-      status: "current",
+      status: "completed",
     },
     {
       title: "Software Engineer (Contract)",
