@@ -137,33 +137,33 @@ export default function Freelancing() {
   ]
 
   const proofOfWorkProjects = {
-    courseManagement: {
-      id: "course-management-portal",
-      title: "Course Management Portal",
-      subtitle: "Full-Stack MERN Application",
-      client: "Hello Growing",
-      status: "Completed",
-      badges: ["Completed", "3 Portals"],
-      description:
-        "Developed a comprehensive course management system with three separate portals: admin, student, and public landing pages with dynamic subdomain support.",
-      liveUrl: "https://crypto.hellogrowing.com", // Add your actual project URL
-      githubUrl: "https://github.com/md-muzzammil-rashid/course-management-portal", // Add your GitHub URL
-      metrics: [
-        { value: "100%", label: "Dynamic Content" },
-        { value: "80%", label: "Reduced Manual Work" },
-      ],
-      features: [
-        "Admin portal for course creation and management",
-        "Student portal with Razorpay payment integration",
-        "Dynamic subdomain system (course.client.com)",
-        "SEO-optimized landing pages with Next.js",
-        "Secure authentication and user management",
-      ],
-      technologies: ["Next.js", "MERN Stack", "Razorpay", "SEO"],
-      gradient: "from-blue-50 to-purple-50",
-      iconGradient: "from-blue-500 to-purple-600",
-      icon: "CMP",
-    },
+    // courseManagement: {
+    //   id: "course-management-portal",
+    //   title: "Course Management Portal",
+    //   subtitle: "Full-Stack MERN Application",
+    //   client: "Hello Growing",
+    //   status: "Completed",
+    //   badges: ["Completed", "3 Portals"],
+    //   description:
+    //     "Developed a comprehensive course management system with three separate portals: admin, student, and public landing pages with dynamic subdomain support.",
+    //   liveUrl: "https://crypto.hellogrowing.com", // Add your actual project URL
+    //   githubUrl: "https://github.com/md-muzzammil-rashid/course-management-portal", // Add your GitHub URL
+    //   metrics: [
+    //     { value: "100%", label: "Dynamic Content" },
+    //     { value: "80%", label: "Reduced Manual Work" },
+    //   ],
+    //   features: [
+    //     "Admin portal for course creation and management",
+    //     "Student portal with Razorpay payment integration",
+    //     "Dynamic subdomain system (course.client.com)",
+    //     "SEO-optimized landing pages with Next.js",
+    //     "Secure authentication and user management",
+    //   ],
+    //   technologies: ["Next.js", "MERN Stack", "Razorpay", "SEO"],
+    //   gradient: "from-blue-50 to-purple-50",
+    //   iconGradient: "from-blue-500 to-purple-600",
+    //   icon: "CMP",
+    // },
     CECFeel:{
 id: "cec-feel-fmcg",
 title: "CEC Feel — FMCG Website",

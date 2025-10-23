@@ -22,10 +22,10 @@ export function Experience() {
       status: "current",
     },
     {
-      title: "Software Engineer (Freelancer)",
+      title: "Software Engineer (Contract)",
       company: "Hello Growing Pvt. Ltd.",
       location: "Ranchi, Jharkhand",
-      period: "February 2025 – May 2025",
+      period: "July 2025 – Sept 2025",
       achievements: [
         "Developed a full-fledged Course Management Portal using MERN stack and Next.js, deployed across three separate portals",
         "Built an admin portal for creating and managing courses, uploading video/content assets, and handling user access dynamically",

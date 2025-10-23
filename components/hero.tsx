@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { Github, Linkedin, Mail, Phone, ExternalLink, Download, ArrowRight } from "lucide-react"
+import { Github, Linkedin, Mail, Phone, Code2, ExternalLink, Download, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import avatar from '@/avatar3.png'
 import Image from "next/image"
@@ -102,7 +102,7 @@ export function Hero() {
               {[
                 { icon: Github, href: "https://github.com/md-muzzammil-rashid", label: "GitHub" },
                 { icon: Linkedin, href: "https://linkedin.com/in/md-muzzammil-rashid", label: "LinkedIn" },
-                { icon: ExternalLink, href: "https://leetcode.com/u/md-muzzammil-rashid", label: "LeetCode" },
+                { icon: Code2, href: "https://leetcode.com/u/md-muzzammil-rashid", label: "LeetCode" },
                 { icon: Mail, href: "mailto:mdmuzzammilrashid@gmail.com", label: "Email" },
                 { icon: Phone, href: "tel:+916200546409", label: "Phone" },
               ].map((social, index) => (
