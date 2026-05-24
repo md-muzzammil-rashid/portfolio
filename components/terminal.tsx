@@ -13,8 +13,8 @@ const developerInfo = `{
     "name": "Md. Muzzammil Rashid",
     "role": "Full Stack Developer",
     "location": "Bangalore, Karnataka",
-    "experience": "1+ Year",
-    "status": "actively_looking_for_full_time_role",
+    "experience": "2+ Year",
+    "status": "software_engineer_at_codingal",
     "specialties": [
       "React.js",
       "Node.js",
@@ -30,16 +30,16 @@ const developerInfo = `{
       "leetcode": "leetcode.com/u/md-muzzammil-rashid"
     },
     "current_focus": [
-      "System Design & DSA Revision",
-      "MERN & Spring Boot Projects",
-      "Interview Preparation"
+      "Scaling backend notifications & distributed systems at Codingal",
+      "Optimizing Celery & Django automation workflows",
+      "Database query tuning & ETL pipeline analytics"
     ],
     "languages": {
-      "Java": "advanced",
+      "Python": "advanced",
       "GoLang": "advanced",
+      "Java": "advanced",
       "JavaScript": "advanced",
       "TypeScript": "intermediate",
-      "Python": "intermediate",
       "C/C++": "intermediate",
       "SQL": "intermediate"
     },
@@ -51,7 +51,7 @@ const developerInfo = `{
       "MongoDB Compass",
       "Figma"
     ],
-    "last_updated": "2025-08-07T21:00:00+05:30"
+    "last_updated": "2026-05-25T02:15:00+05:30"
   }
 }`
 

@@ -56,7 +56,7 @@ export function Hero() {
             <div className="space-y-6">
               <div className="inline-flex items-center px-4 py-2 bg-white/80 backdrop-blur-md rounded-full border border-gray-200/50 shadow-lg">
                 <div className="w-2 h-2 bg-green-500 rounded-full mr-3 animate-pulse"></div>
-                <span className="text-sm font-medium text-gray-600">Available for new opportunities</span>
+                <span className="text-sm font-medium text-gray-600">Software Engineer at Codingal (YC W21)</span>
               </div>
 
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight">

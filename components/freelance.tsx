@@ -137,6 +137,33 @@ export default function Freelancing() {
   ]
 
   const proofOfWorkProjects = {
+        fitc: {
+      id: "fit-c-platform",
+      title: "FIT-C — Gym Management & Engagement SaaS",
+      subtitle: "All-in-One Fitness Ecosystem",
+      client: "Fit-C",
+      status: "Completed",
+      badges: ["Completed", "SaaS Platform", "AI Integration"],
+      description:
+        "Designed and developed a comprehensive gym management and member engagement ecosystem. The platform seamlessly connects gym owners (for space monetization and scheduling), trainers (for gig matching and automated payouts), and members (for class booking and AI-driven coaching).",
+      liveUrl: "https://fitcapp.com/",
+      metrics: [
+        { value: "10-30%", label: "Revenue boost for centers" },
+        { value: "AI Coach", label: "Interactive member guidance" },
+        { value: "All-in-One", label: "Connected gym ecosystem" },
+      ],
+      features: [
+        "Gym center dashboard for schedule management and membership renewals",
+        "Trainer marketplace enabling class booking, automated scheduling, and payouts",
+        "Member experience optimized for booking classes, tracking progress, and challenges",
+        "AI-powered fitness coaching for personalized guidance and engagement",
+        "Fit-C Smart Reports to analyze utilization, cut waste, and discover profits",
+      ],
+      technologies: ["Next.js", "React Native", "Tailwind CSS", "Node.js", "AI APIs"],
+      gradient: "from-violet-50 to-indigo-50",
+      iconGradient: "from-violet-500 to-indigo-600",
+      icon: "FIT-C",
+    },
     // courseManagement: {
     //   id: "course-management-portal",
     //   title: "Course Management Portal",
@@ -257,10 +284,6 @@ gradient: "from-amber-50 to-rose-50",
 iconGradient: "from-red-500 to-black",
 icon: "KA"
 },
-
-
-
-
 
     // constructionWorkflow: {
     //   id: "construction-workflow-app",

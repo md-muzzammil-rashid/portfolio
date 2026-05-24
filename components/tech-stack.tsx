@@ -47,9 +47,30 @@ export function TechStack() {
     {
       name: "Python",
       category: "language",
-      level: 80,
+      level: 93,
       color: "from-yellow-400 to-blue-500",
-      description: "Versatile programming",
+      description: "Advanced automation, scripting & backend development",
+    },
+    {
+      name: "Django",
+      category: "backend",
+      level: 91,
+      color: "from-green-600 to-emerald-800",
+      description: "Secure and scalable Python web framework",
+    },
+    {
+      name: "Celery",
+      category: "backend",
+      level: 88,
+      color: "from-green-500 to-teal-600",
+      description: "Distributed asynchronous task queue",
+    },
+    {
+      name: "MySQL",
+      category: "database",
+      level: 86,
+      color: "from-blue-500 to-orange-500",
+      description: "Relational database management system",
     },
     {
       name: "React Native",
@@ -75,9 +96,9 @@ export function TechStack() {
     {
       name: "Redis",
       category: "database",
-      level: 75,
+      level: 78,
       color: "from-red-500 to-red-700",
-      description: "In-memory data store",
+      description: "In-memory data structure store & cache",
     },
     {
       name: "Docker",

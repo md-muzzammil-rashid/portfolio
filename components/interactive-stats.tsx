@@ -12,7 +12,7 @@ export function InteractiveStats() {
     {
       icon: Code,
       label: "Lines of Code",
-      value: 50000,
+      value: 1000000,
       suffix: "+",
       color: "from-purple-500 to-blue-500",
       description: "Written across all projects",
@@ -20,7 +20,7 @@ export function InteractiveStats() {
     {
       icon: Users,
       label: "Happy Users",
-      value: 10000,
+      value: 50000,
       suffix: "+",
       color: "from-blue-500 to-cyan-500",
       description: "Served by my applications",
@@ -44,7 +44,7 @@ export function InteractiveStats() {
     {
       icon: Coffee,
       label: "Cups of Coffee",
-      value: 2500,
+      value: 5000,
       suffix: "+",
       color: "from-green-500 to-emerald-500",
       description: "Fuel for coding sessions",
@@ -52,7 +52,7 @@ export function InteractiveStats() {
     {
       icon: Clock,
       label: "Hours Coded",
-      value: 3000,
+      value: 10000,
       suffix: "+",
       color: "from-emerald-500 to-teal-500",
       description: "Dedicated to development",
@@ -68,7 +68,7 @@ export function InteractiveStats() {
     {
       icon: Zap,
       label: "Projects Deployed",
-      value: 25,
+      value: 30,
       suffix: "+",
       color: "from-pink-500 to-purple-500",
       description: "Live and running",

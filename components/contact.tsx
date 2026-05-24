@@ -182,9 +182,9 @@ export function Contact() {
               <CardContent className="p-8">
                 <h4 className="text-2xl font-bold text-gray-900 mb-4">Let's Work Together</h4>
                 <p className="text-gray-600 leading-relaxed">
-                  I'm currently open to new opportunities and exciting projects. Whether you're looking for a
-                  full-stack developer, need help with a specific project, or just want to connect, I'd love to hear
-                  from you.
+                  I'm currently open to freelance opportunities, collaborations, and exciting side projects. Whether
+                  you need help building a full-stack application, want to collaborate on a project, or just want to
+                  connect, I'd love to hear from you.
                 </p>
               </CardContent>
             </Card>

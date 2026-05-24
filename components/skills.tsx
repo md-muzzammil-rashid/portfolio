@@ -19,7 +19,7 @@ export function Skills() {
     {
       icon: Database,
       title: "Backend & Database",
-      skills: ["Node.js", "Express.js", "Spring Boot", "MongoDB", "MySQL", "Redis", "RESTful APIs"],
+      skills: ["Django", "Node.js", "Express.js", "Spring Boot", "Celery", "MySQL", "MongoDB", "Redis", "RESTful APIs"],
       gradient: "from-cyan-500 to-teal-500",
     },
     {
@@ -31,7 +31,7 @@ export function Skills() {
     {
       icon: Cloud,
       title: "Cloud & DevOps",
-      skills: ["Firebase", "Git", "GitHub", "WebSocket", "RabbitMQ", "Microservices"],
+      skills: ["AWS (S3)", "Firebase", "Git", "GitHub", "WebSocket", "RabbitMQ", "Microservices"],
       gradient: "from-green-500 to-emerald-500",
     },
     {
